@@ -3,6 +3,7 @@ import me2 from '../assets/images/me2.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faDownload, faContactBook } from "@fortawesome/free-solid-svg-icons";
 import { faFacebook, faInstagram, faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
+import { Link } from "react-scroll";
 
 const About = () => {
   return (
@@ -34,10 +35,13 @@ const About = () => {
             </a>
           </div>
           <span className='font-medium'>
-            <button className='border-solid mr-6 rounded-full py-3 px-5 bg-neutral-200 hover:bg-neutral-100 text-black'>
+            <Link to='contact'  spy={true}
+                                smooth={true}
+                                offset={-70}
+                                duration={300} className='border-solid mr-6 rounded-full py-3 px-5 bg-neutral-200 cursor-pointer hover:bg-neutral-100 text-black'>
               Contact Me
               <FontAwesomeIcon icon={faContactBook} className='ml-2' />
-            </button>
+            </Link>
             <button className='border-solid rounded-full py-3 px-5 bg-sky-700 hover:bg-sky-600'>
               Download CV
               <FontAwesomeIcon icon={faDownload} className='ml-2' />
