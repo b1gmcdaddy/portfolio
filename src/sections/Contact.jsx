@@ -20,7 +20,7 @@ const Contact = () => {
 
 
   return (
-      <div className="w-full text-white py-[10rem]">
+      <div className="w-full text-white py-[10rem] mb-24">
         <div className="mx-auto max-w-[1240px] text-center">
           <h2 className="text-2xl mb-2 tracking-wide md:text-4xl">
             SEND ME AN EMAIL
