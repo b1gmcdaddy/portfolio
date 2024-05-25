@@ -16,7 +16,7 @@ const About = () => {
     >
       <div ref={ref} className='max-w-[1240px] mx-auto grid md:grid-cols-2'>
         <motion.img 
-          className='md:w-[500px] md:h-[500px] xs:h-[370px] mx-auto my-4 rounded-full border-solid border-[8px] border-slate-800 shadow-lg shadow-slate-400' 
+          className='md:w-[500px] md:h-[500px] xs:w-[350px] xs:h-[350px] mx-auto my-4 rounded-full border-solid border-[8px] border-slate-800 shadow-lg shadow-slate-400' 
           src={me2}
           style={{ borderRightWidth: '32px', borderBottomWidth: '32px' }} 
           initial={{ x: -200, opacity: 0 }}
@@ -56,7 +56,7 @@ const About = () => {
               Contact Me
               <FontAwesomeIcon icon={faContactBook} className='ml-2' />
             </Link>
-            <a href='src\assets\JOLONY TIM TANGPUZ - CV.pdf' download className='border-solid rounded-full py-3 px-5 bg-sky-700 hover:bg-sky-600'>
+            <a href='/JOLONY TIM TANGPUZ - CV.pdf' download className='border-solid rounded-full py-3 px-5 bg-sky-700 hover:bg-sky-600'>
               Download CV
               <FontAwesomeIcon icon={faDownload} className='ml-2' />
             </a>
