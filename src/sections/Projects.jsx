@@ -22,7 +22,7 @@ const Projects = () => {
           <img className='mx-auto rounded-md mt-[-1.5rem] hover:scale-105 duration-300 w-full h-48' src={carolhub} alt='/' />
           <h2 className='text-2xl font-bold px-4 py-5'>CarolHub</h2>
           <p className='text-base px-4'>A chat app with Google Sign-In and dynamic chat rooms. </p>
-          <a href='' className='flex justify-end px-4 py-2'>
+          <a href='https://carol-hub.web.app/' className='flex justify-end px-4 py-2'>
             <FontAwesomeIcon icon={faGithub} className='text-2xl hover:text-sky-300' />
           </a>
         </div>
@@ -31,7 +31,7 @@ const Projects = () => {
           <img className='mx-auto rounded-md mt-[-1.5rem] hover:scale-105 duration-300 w-full h-48' src={bazura} alt='/' />
           <h2 className='text-2xl font-bold px-4 py-5'>BAZURA</h2>
           <p className='text-base px-4'>A showcasing website for the Bazura Grill with CRUD capabilities for the admin.</p>
-          <a href='' className='flex justify-end px-4 py-2'>
+          <a href='https://github.com/b1gmcdaddy/bazura' className='flex justify-end px-4 py-2'>
             <FontAwesomeIcon icon={faGithub} className='text-2xl hover:text-sky-300' />
           </a>
         </div>
@@ -39,7 +39,7 @@ const Projects = () => {
           <img className='mx-auto rounded-md mt-[-1.5rem] hover:scale-105 duration-300 w-full h-48' src={foodtrips} alt='/' />
           <h2 className='text-2xl font-bold px-4 py-5'>FoodTrips</h2>
           <p className='text-base px-4'>A restaurant note tracking app, allowing me to remember potential restaurants and cafes to go to.</p>
-          <a href='' className='flex justify-end px-4 py-2'>
+          <a href='https://github.com/b1gmcdaddy/Restos-V.3.0.0' className='flex justify-end px-4 py-2'>
             <FontAwesomeIcon icon={faGithub} className='text-2xl hover:text-sky-300' />
           </a>
         </div>
@@ -47,7 +47,7 @@ const Projects = () => {
           <img className='mx-auto rounded-md mt-[-1.5rem] hover:scale-105 duration-300 w-full h-48' src={saad} alt='/' />
           <h2 className='text-2xl font-bold px-4 py-5'>DCISM Inventory System</h2>
           <p className='text-base px-4'>Final Project for CIS 2201. Inventory System for the CS/IT/IS Department.</p>
-          <a href='' className='flex justify-end px-4 py-2'>
+          <a href='https://github.com/b1gmcdaddy/CIS-2201---Inventory-System' className='flex justify-end px-4 py-2'>
             <FontAwesomeIcon icon={faGithub} className='text-2xl hover:text-sky-300' />
           </a>
         </div>
@@ -55,7 +55,7 @@ const Projects = () => {
           <img className='mx-auto rounded-md mt-[-1.5rem] hover:scale-105 duration-300 w-full h-48' src={interasian} alt='/' />
           <h2 className='text-2xl font-bold px-4 py-5'>Real Estate Website</h2>
           <p className='text-base px-4'>A website that displays real-estate properties through CRUD functionalities.</p>
-          <a href='' className='flex justify-end px-4 py-2'>
+          <a href='https://github.com/b1gmcdaddy/Interasian-Realty-Services' className='flex justify-end px-4 py-2'>
             <FontAwesomeIcon icon={faGithub} className='text-2xl hover:text-sky-300' />
           </a>
         </div>

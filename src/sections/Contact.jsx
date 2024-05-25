@@ -38,11 +38,11 @@ const Contact = () => {
             </h2>
             <div className="w-[100px] h-[5px] mx-auto bg-sky-300 rounded-md mt-4"></div>
             <p className="md:mt-3 md:pt-3 md:text-lg xs:text-base">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed
-              dapibus leonec.
+              Feel free to contact me through this form or through SMS. <br />
+              Mobile number: 0967 243 9625
             </p>
             <form onSubmit={handleSubmit}>
-              <div className="mb-4 mt-[3.5rem] grid grid-cols-2 gap-8">
+              <div className="mb-4 mt-[2.5rem] grid grid-cols-2 gap-8">
                 <input
                   type="text"
                   id="name"

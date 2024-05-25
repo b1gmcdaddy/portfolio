@@ -71,7 +71,7 @@ const ParticlesComponent = (props) => {
           width: 1,
         },
         move: {
-          direction: "none",
+          direction: "bottom-left",
           enable: true,
           outModes: {
             default: "bounce",
@@ -87,13 +87,13 @@ const ParticlesComponent = (props) => {
           value: 150,
         },
         opacity: {
-          value: 0.3,
+          value: 0.4,
         },
         shape: {
           type: "circle",
         },
         size: {
-          value: { min: 2, max: 4 },
+          value: { min: 5, max: 4 },
         },
       },
       detectRetina: true,

@@ -47,7 +47,7 @@ const Navbar = () => {
                                 to={link.to} 
                                 spy={true}
                                 smooth={true}
-                                offset={-70}
+                                offset={-80}
                                 duration={300}
                                 className={`md:text-lg hover:text-xl hover:transition-all duration-500 ease-in ${openMenu ? 'text-black font-medium':'text-white'}`}
                                 onClick={() => setOpenMenu(false)}

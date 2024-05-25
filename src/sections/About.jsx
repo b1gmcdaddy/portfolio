@@ -21,16 +21,16 @@ const About = () => {
             Aspiring Full-Stack Software Developer
           </p>
           <div className='flex space-x-8 mb-6 md:ml-2 md:justify-start xs:justify-center'>
-            <a href='' className='text-white hover:text-gray-400'>
+            <a href='https://www.facebook.com/profile.php?id=100005535220914' className='text-white hover:text-gray-400'>
               <FontAwesomeIcon icon={faFacebook} size='2x' />
             </a>
-            <a href='' className='text-white hover:text-gray-400'>
+            <a href='https://www.instagram.com/jolotangpuz/' className='text-white hover:text-gray-400'>
               <FontAwesomeIcon icon={faInstagram} size='2x' />
             </a>
-            <a href='' className='text-white hover:text-gray-400'>
+            <a href='https://www.linkedin.com/in/jolony-tim-tangpuz-53b529214/' className='text-white hover:text-gray-400'>
               <FontAwesomeIcon icon={faLinkedin} size='2x' />
             </a>
-            <a href='' className='text-white hover:text-gray-400'>
+            <a href='https://github.com/b1gmcdaddy' className='text-white hover:text-gray-400'>
               <FontAwesomeIcon icon={faGithub} size='2x' />
             </a>
           </div>
@@ -42,10 +42,10 @@ const About = () => {
               Contact Me
               <FontAwesomeIcon icon={faContactBook} className='ml-2' />
             </Link>
-            <button className='border-solid rounded-full py-3 px-5 bg-sky-700 hover:bg-sky-600'>
+            <a href='src\assets\JOLONY TIM TANGPUZ - CV.pdf' download className='border-solid rounded-full py-3 px-5 bg-sky-700 hover:bg-sky-600'>
               Download CV
               <FontAwesomeIcon icon={faDownload} className='ml-2' />
-            </button>
+            </a>
           </span>
         </div>
       </div>
