@@ -5,10 +5,10 @@ import { faGithub } from "@fortawesome/free-brands-svg-icons";
 
 const Projects = () => {
   return (
-    <div className='w-full py-[4rem] mt-3 px-4 mb-20 text-white'>
+    <div className='w-full py-[4rem] mt-3 px-4 mb-18 text-white'>
         <div className='max-w-[1240px] mx-auto xs:px-10 text-center'>
         <h1 className='text-white md:text-4xl sm:text-2xl tracking-wide text-xl font-bold'>My Projects</h1>
-          <div className='w-[100px] h-[4px] mx-auto bg-sky-300 rounded-md mt-2 mb-8'></div>
+          <div className='w-[100px] h-[4px] mx-auto bg-sky-300 rounded-md mt-4 mb-12'></div>
         </div>
       <div className='max-w-[1240px] mx-auto grid md:grid-cols-3 gap-16'>
 

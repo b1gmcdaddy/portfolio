@@ -25,7 +25,7 @@ const Contact = () => {
           <h2 className="text-2xl mb-2 tracking-wide md:text-4xl">
             SEND ME AN EMAIL
           </h2>
-          <div className="w-[100px] h-[2.5px] mx-auto bg-sky-300 rounded-md mt-4"></div>
+          <div className="w-[100px] h-[5px] mx-auto bg-sky-300 rounded-md mt-4"></div>
           <p className="md:mt-3 md:pt-3 md:text-lg xs:text-base">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed
             dapibus leonec.

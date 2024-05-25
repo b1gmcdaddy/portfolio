@@ -32,7 +32,7 @@ const Navbar = () => {
         <nav className={`w-full fixed top-0 left-0 z-10 transition-all duration-500 ease-in ${navBackground ? 'bg-gray-900' : 'bg-transparent'}`}>
             <div className="md:flex items-center md:mx-64 justify-between py-4 md:px-10 px-7">
                 <div className="font-bold text-2xl cursor-pointer flex items-center text-white">
-                    <Link to="" className="text-4xl mr-1 pt-2 customFont tracking-widest">JNT</Link> 
+                    <Link to="about" className="text-4xl mr-1 pt-2 customFont tracking-widest">JNT</Link> 
                 </div>
                 <div onClick={() => setOpenMenu(!openMenu)} className='text-3xl absolute right-8 top-6 text-white cursor-pointer md:hidden'>
                     <FontAwesomeIcon icon={openMenu ? faXmark : faBars} />
