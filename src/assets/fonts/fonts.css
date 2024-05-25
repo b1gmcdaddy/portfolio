@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'FasterRace';
+    src: url('./FasterRace-m21jG.ttf') format('truetype');
+  }
+
+.customFont {
+    font-family: 'FasterRace', sans-serif;
+}
+  
