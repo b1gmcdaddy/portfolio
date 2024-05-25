@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useRef } from 'react';
 import emailjs from 'emailjs-com';
 
 const Contact = () => {
@@ -32,7 +32,7 @@ const Contact = () => {
 
     return (
         <div className="w-full text-white py-[10rem] mb-24">
-          <div className="mx-auto max-w-[1240px] text-center">
+          <div className="mx-auto max-w-[1240px] text-center" >
             <h2 className="text-2xl mb-2 tracking-wide md:text-4xl">
               SEND ME AN EMAIL
             </h2>
