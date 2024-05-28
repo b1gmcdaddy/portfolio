@@ -29,7 +29,7 @@ const About = () => {
           animate={isInView ? { x: 0, opacity: 1 } : { x: 200, opacity: 0 }}
           transition={{ duration: 1.5 }}
         >
-          <h1 className='md:text-5xl xs:text-2xl font-[Tahoma] tracking-wider font-bold py-4'>Jolony Tim N. Tangpuz</h1>
+          <h1 className='md:text-5xl xs:text-3xl font-[Tahoma] md:tracking-wider font-bold py-4'>Jolony Tim N. Tangpuz</h1>
           <div className='md:w-[170px] xs:w-[100px] h-[4px] bg-sky-300 rounded-md mb-5 md:mx-0 xs:mx-auto'></div>
           <p className='md:text-justify mb-6 md:text-2xl xs:text-lg xs:text-center ml-2'>
             Aspiring Full-Stack Software Developer
