@@ -59,7 +59,7 @@ const Projects = () => {
           <img className='mx-auto rounded-md mt-[-1.5rem] hover:scale-105 duration-300 w-full h-48' src={foodtrips} alt='/' />
           <h2 className='text-2xl font-bold px-4 py-5'>Restos v.3.0.0</h2>
           <p className='text-base px-4'>A restaurant note tracking app to keep track of potential foodtrips.</p>
-          <a href='https://github.com/b1gmcdaddy/Restos-V.3.0.0' className='flex justify-end px-4 py-2'>
+          <a href='https://github.com/b1gmcdaddy/jolo-restos' className='flex justify-end px-4 py-2'>
             <FontAwesomeIcon icon={faGithub} className='text-2xl hover:text-sky-300' />
           </a>
         </div>
