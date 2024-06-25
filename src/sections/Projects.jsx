@@ -2,7 +2,7 @@ import React, { useEffect, useRef } from 'react';
 import interasian from '../assets/images/interasian.jpg';
 import carolhub from '../assets/images/carolhub.jpg';
 import bazura from '../assets/images/bazura.jpg';
-import foodtrips from '../assets/images/foodtrips.jpg';
+import restos from '../assets/images/restos.jpg';
 import parokyano from '../assets/images/parokyano.jpg';
 import saad from '../assets/images/saad.jpg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -58,11 +58,11 @@ const Projects = () => {
           </a>
         </div>
         <div className='w-full shadow-xl flex flex-col p-4 rounded-lg bg-slate-800'>
-          <img className='mx-auto rounded-md mt-[-1.5rem] hover:scale-105 duration-300 w-full h-48' src={foodtrips} alt='/' />
-          <h2 className='text-2xl font-bold px-4 mt-5'>Restos v.3.0.0</h2>
-          <p className='text-[14px] px-4 mb-5 italic text-sky-300'>ReactJS, ChakraUI, NodeJS, MySQL</p>
-          <p className='text-base px-4'>A restaurant note tracking app to keep track of potential foodtrips.</p>
-          <a href='https://github.com/b1gmcdaddy/jolo-restos' className='flex justify-end px-4 py-2'>
+          <img className='mx-auto rounded-md mt-[-1.5rem] hover:scale-105 duration-300 w-full h-48' src={restos} alt='/' />
+          <h2 className='text-2xl font-bold px-4 mt-5'>Restos v.4.0</h2>
+          <p className='text-[14px] px-4 mb-5 italic text-sky-300'>VueJS, TailwindCSS, ASP.NET Core, Microsoft SQL Server</p>
+          <p className='text-base px-4'>4th version of a restaurant note-tracking app to keep track of potential foodtrips.</p>
+          <a href='https://github.com/b1gmcdaddy/Restos-V.4.0' className='flex justify-end px-4 py-2'>
             <FontAwesomeIcon icon={faGithub} className='text-2xl hover:text-sky-300' />
           </a>
         </div>
